@@ -5,7 +5,9 @@ import streamlit as st # Import the Streamlit library
 # --- OpenAI API Key Setup ---
 # Get API key from environment variable (recommended for security)
 
-openai.api_key = os.environ.get("OPENAI_API_KEY")
+
+openai.api_key = "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"
+# openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 # Check if API key is set. In a Streamlit app, we show an error message
 # directly on the page if it's missing.
